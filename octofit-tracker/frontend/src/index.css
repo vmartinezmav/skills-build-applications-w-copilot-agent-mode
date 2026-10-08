@@ -1,15 +1,25 @@
 :root {
-  font-family: system-ui, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #202c2b;
+  background: #f5f7f4;
+  --paper: #fff;
+  --ink: #202c2b;
+  --muted: #6d7975;
+  --line: #dce3de;
+  --reef: #137a70;
+  --mist: #e7f1ed;
+  --coral: #c45e49;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  background: #f5f7f4;
 }
 
 #root {
